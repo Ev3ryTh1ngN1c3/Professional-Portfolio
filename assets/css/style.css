@@ -46,12 +46,13 @@ p {
     font-size: 22px;
 }
 
-.photo {
+.header-photo {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: <img src="assets/images/Portfolio Photo.png" alt="Portfolio Photo">;
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
