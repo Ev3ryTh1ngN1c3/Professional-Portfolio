@@ -16,6 +16,22 @@ body {
     color: #e1e5eb;
     display: flex;
 }
+
+.container {
+    display: flex;
+  }
+  
+  .container img {
+    max-width: 50%;
+  }
+  
+  .container div {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-end;
+    flex-direction: column;
+    font-size: 35px;
+  }
 nav a {
     color: #13293d;
     padding: 14px 20px;
