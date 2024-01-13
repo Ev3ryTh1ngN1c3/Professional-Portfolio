@@ -40,6 +40,11 @@ li.nav-item a:hover {
     background-color: #555;
 }
 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .container {
     display: flex;
 }
@@ -110,6 +115,12 @@ p {
     position: absolute;
     width: 25%;
     right: 0;
+}
+
+.card {
+    flex: 0 0 calc(25% - 20px);
+    /* Adjust the width as needed */
+    margin: 5px;
 }
 
 .card {
