@@ -117,6 +117,16 @@ p {
     right: 0;
 }
 
+#development-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .development-projects-content {
+    /* Additional styling for the content inside the section */
+  }
+
 .card {
     flex: 0 0 calc(25% - 20px);
     /* Adjust the width as needed */
