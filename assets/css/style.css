@@ -1,13 +1,17 @@
+/* box-sizing to border-box for all elements to include padding & border in the total width & height */
+/* apply a padding & margin of 250 to all elements */
 * {
     box-sizing: border-box;
     padding: 250;
     margin: 250;
 }
 
+/* background color of the body */
 body {
     background-color: #e1e5eb;
 }
 
+/* style the header section */
 .header {
     position: relative;
     padding: 20px;
@@ -17,17 +21,19 @@ body {
     display: flex;
 }
 
-/* Add some basic CSS for styling the navbar */
+/* add styling the navbar */
 ul.navbar {
     list-style-type: none;
     padding: 0;
     overflow: hidden;
 }
 
+/* float the list items with the class "nav-item" to the right */
 li.nav-item {
     float: right;
 }
 
+/* style the anchor elements within the list items */
 li.nav-item a {
     display: block;
     color: white;
@@ -36,10 +42,12 @@ li.nav-item a {
     text-decoration: none;
 }
 
+/* apply a background color to the anchor elements on hover */
 li.nav-item a:hover {
     background-color: #555;
 }
 
+/* a flex container with wrapping behavior */
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -53,6 +61,7 @@ li.nav-item a:hover {
     max-width: 100%;
 }
 
+/* style the inner div within the container */
 .container div {
     display: flex;
     align-items: flex-start;
@@ -61,6 +70,7 @@ li.nav-item a:hover {
     font-size: 35px;
 }
 
+/* a flex container with center alignment */
 .flex-container {
     display: flex;
     justify-content: center;
@@ -68,6 +78,7 @@ li.nav-item a:hover {
     flex-wrap: wrap;
 }
 
+/* style the anchor elements within the navigation */
 nav a {
     color: #13293d;
     padding: 14px 20px;
@@ -75,13 +86,14 @@ nav a {
     text-align: center;
 }
 
-
+/* style the heading within the header section */
 .header h1 {
     display: inline-block;
     margin-right: 50;
     font-size: 48px;
 }
 
+/* style the inner div within the header section */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -90,24 +102,29 @@ nav a {
     font-size: 25px;
 }
 
+
 .header div ul {
     list-style-type: none;
 }
 
+/* style the list items within the unordered list */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* style anchor elements */
 a {
     color: #06293b;
     text-decoration: none;
 }
 
+/* style paragraphs */
 p {
     font-size: 22px;
 }
 
+/* style the header photo section */
 .header-photo {
     height: 800px;
     width: 100%;
@@ -118,12 +135,14 @@ p {
     background-position: center;
 }
 
+/* Position the content section */
 .content {
     position: absolute;
     width: 25%;
     right: 0;
 }
 
+/* style the development projects section */
 #development-projects {
     display: flex;
     justify-content: center;
@@ -131,15 +150,16 @@ p {
 }
 
 .development-projects-content {
-    /* Additional styling for the content inside the section */
+    /* additional styling for the content inside the section */
 }
 
 .card {
     flex: 0 0 calc(25% - 20px);
-    /* Adjust the width as needed */
+    /* adjust the width as needed */
     margin: 5px;
 }
 
+/* style the cards */
 .card {
     position: relative;
     border-style: solid;
@@ -150,8 +170,7 @@ p {
     text-align: center;
 }
 
-
-
+/* style the header within the cards */
 .card header {
     padding: 20px;
 }
@@ -160,6 +179,7 @@ p {
     text-align: center;
 }
 
+/* style images within the cards */
 .card img {
     /* width: 100%; */
     height: 300px;
