@@ -61,6 +61,13 @@ li.nav-item a:hover {
     font-size: 35px;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 nav a {
     color: #13293d;
     padding: 14px 20px;
@@ -121,11 +128,11 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .development-projects-content {
+}
+
+.development-projects-content {
     /* Additional styling for the content inside the section */
-  }
+}
 
 .card {
     flex: 0 0 calc(25% - 20px);
